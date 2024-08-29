@@ -35,8 +35,8 @@ const Contact = () => {
       <div className="w-left">
         <div className="awesome">
           {/* darkMode */}
-          <span style={{color: darkMode?'white': ''}}>Get in Touch</span>
-          <span>Contact me</span>
+          <span style={{color: darkMode?'white': ''}}>Contactez-nous</span>
+          <span>Contactez Nous</span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}
@@ -46,11 +46,11 @@ const Contact = () => {
       {/* right side form */}
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="user_name" className="user"  placeholder="Name"/>
+          <input type="text" name="user_name" className="user"  placeholder="Nom"/>
           <input type="email" name="user_email" className="user" placeholder="Email"/>
           <textarea name="message" className="user" placeholder="Message"/>
-          <input type="submit" value="Send" className="button"/>
-          <span>{done && "Thanks for Contacting me"}</span>
+          <input type="submit" value="Envoyer" className="button"/>
+          <span>{done && "Merci de nous contactez "}</span>
           <div
             className="blur c-blur1"
             style={{ background: "var(--purple)" }}

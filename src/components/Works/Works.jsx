@@ -21,21 +21,27 @@ const Works = () => {
         <div className="awesome">
           {/* dark Mode */}
           <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
+           Voici quelques projets
           </span>
-          <span>Brands & Clients</span>
+          <span>et services que j'ai reproduis</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          Spotify : Interface utilisateur pour une application musicale avec playlists personnalisées et recommandations basées sur les préférences.
+
+
+
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
+            Facebook : Fonctionnalité de gestion de groupe avec une interface intuitive pour créer et suivre des groupes d'intérêt.
+
             text
             <br />
-            y dummy text of printingLorem
+            Site e-commerce : Développement d'un site e-commerce responsive avec gestion des produits, filtres de recherche, et paiement sécurisé.
+
             <br />
-            ispum is simpley dummy text of printing
+            Amazon : Interface de gestion de panier et de checkout pour une plateforme e-commerce, optimisant l'expérience utilisateur et le processus de paiement.
+
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Engagez Moi</button>
           </Link>
           <div
             className="blur s-blur1"

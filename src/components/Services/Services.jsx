@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import cv from "./cv.pdf";
 
 const Services = () => {
   // context
@@ -24,15 +24,15 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Mes incroyables</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+         Création d'interfaces attrayantes et fonctionnelles pour des applications web,
           <br />
-          ispum is simpley dummy text of printing
+          en mettant l'accent sur l'expérience utilisateur et la performance.
         </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+        <a href={cv} download>
+          <button className="button s-button">Téléchargez le CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
@@ -47,7 +47,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={"Figma, Sketch, Photoshop, Canva"}
           />
         </motion.div>
         {/* second card */}
@@ -59,7 +59,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Express, MongoDB, Nextjs, Tailwindcss, Bootstrap"}
           />
         </motion.div>
         {/* 3rd */}
@@ -68,14 +68,7 @@ const Services = () => {
           whileInView={{ left: "12rem" }}
           transition={transition}
         >
-          <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
-            color="rgba(252, 166, 31, 0.45)"
-          />
+        
         </motion.div>
         <div
           className="blur s-blur2"
